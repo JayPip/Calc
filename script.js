@@ -13,7 +13,7 @@ var z= x + y ;
 
 
 
-alert(z);
+document.getElementById("wynik1").innerHTML =  z;
 
 
 return;
@@ -33,8 +33,8 @@ function dif(){
 
 
 var z= x - y ;
+ document.getElementById("wynik2").innerHTML = z;
 
-alert(z);
 
 
 return;

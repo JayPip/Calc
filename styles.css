@@ -29,7 +29,16 @@ margin-right:10%;
 
 .input1{
 width: 100px;
+display: inline-block;
+}
 
 
+.wyniktxt{
+
+  display: inline;
+}
+
+.wynik1{
+  display: inline;
 
 }
