@@ -1,37 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>kalkulator</title>
-    <link href="styles.css" rel="stylesheet">
-    <script src="script.js" async>//atrybut async wczytywanie asynchorniczne strony(defer dla pary skryptow, sa wczytywane po kolei)
+
+<head>
+  <meta charset="utf-8">
+  <title>kalkulator</title>
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <script src="script.js" async>//atrybut async wczytywanie asynchorniczne strony(defer dla pary skryptow, sa wczytywane po kolei)
 
     </script>
 
-  </head>
-  <body>
+</head>
 
-        <div class="text">
-          <p class="1pr"> Dodawanie:</p>
-        <input type="number" class="input1" id="sum1">
-        +
-        <input type="number" class="input1" id="sum2">
+<body>
+
+  <div class="text">
+    <div class="top">Kalkulator</div>
 
 
-        <input type="submit" value="licz" onclick="sum()">
-            <p class="wyniktxt">Wynik: <p class="wynik1" id="wynik1"></p></p>
+    <p class="pr"> Dodawanie:</p>
+    <input type="number" class="input1" id="sum1">
+    +
+    <input type="number" class="input1" id="sum2">
 
-        <p class="2pr"> Odejmowanie:</p>
-        <input type="number" class="input1" id="dif1">
-        -
-        <input type="number" class="input1" id="dif2">
+    <input type="submit" value="licz" onclick="sum()">
+    <p class="wyniktxt">Wynik: <p class="wynik1" id="wynik1"></p>
+    </p>
+
+    <p class="pr"> Odejmowanie:</p>
+    <input type="number" class="input1" id="dif1">
+    -
+    <input type="number" class="input1" id="dif2">
+    <input type="submit" value="licz" onclick="dif()">
+    <p class="wyniktxt">Wynik: <p class="wynik1" id="wynik2"></p>
+    </p>
+
+    <p class="pr"> Reszta z dzielenia:</p>
+    <input type="number" class="input1" id="mod1">
+    +
+    <input type="number" class="input1" id="mod2">
+
+    <input type="submit" value="licz" onclick="mod()">
+    <p class="wyniktxt">Wynik: <p class="wynik1" id="wynik3"></p>
+    </p>
 
 
 
-        <input type="submit" value="licz" onclick="dif()">
+  </div>
+</body>
 
-
-              <p class="wyniktxt">Wynik: <p class="wynik1" id="wynik2"></p></p>  
-        </div>
-  </body>
 </html>

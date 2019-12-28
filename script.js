@@ -41,3 +41,21 @@ return;
 
 
 }
+function mod(){
+  var x=document.getElementById("mod1").value;
+    x = parseFloat(x);
+
+ var y=document.getElementById("mod2").value;
+    y = parseFloat(y);
+
+
+
+var z= x % y ;
+ document.getElementById("wynik3").innerHTML = z;
+
+
+
+return;
+
+
+}
