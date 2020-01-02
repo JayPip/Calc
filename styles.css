@@ -1,10 +1,10 @@
 body {
-  background-color: #ff9d76;
+  background-color: #2c7873;
   text-align: center;
 }
 
 div {
-
+  text-align: center;
 }
 
 td{
@@ -17,6 +17,11 @@ table{
   vertical-align:top;
 
 }
+
+input:focus::placeholder {
+  color: transparent;
+}
+
 
 .text {
   height: auto;
@@ -50,7 +55,7 @@ table{
 
 
 .tablica{
-    background-color: #6c567b;
+    background-color: #f6e1e1;
     font-size: 30px;
     padding-left: 5%;
     padding-right: 5%;
@@ -61,6 +66,18 @@ table{
 
 
 }
+.przycisk{
+  width: 50%;
+  height: 40px;
+  background-color: #6fb98f;
+   border: none;
+   text-decoration: none;
+   font-size: 16px;
+   color: white;
+   cursor: pointer;
+   outline: none;
+}
+
 
 .komorka:hover{
   background-color: #e8d4b4;
@@ -115,9 +132,14 @@ table{
 
 
 .komorki2{
-  padding: 20px;
-  text-align: center;
 
+  text-align: center;
+  background-color: #6fb98f;
+  height: 30px;
+  padding-top: 5px;
+  font-size: 25px;
+  padding-bottom: 5px;
+  color: white;
 }
 
 
@@ -133,10 +155,24 @@ table{
 .textwynik{
   max-width: 10%;
   max-height: 10%;
-
+    text-align: center;
   border-bottom:2px solid red;
   font-size: 30px;
 
+}
+select{
+  background-color: #6fb98f;
+  color: white;
+  width: 80%;
+  height: auto;
+  outline: none;
+  text-align-last:center;
+  padding: 10px;
 
+}
+option{
+  background-color: #6fb98f;
+  color: white;
+  text-align:center;
 
 }

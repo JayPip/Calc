@@ -50,7 +50,7 @@ while(suma>0.99){
 
     digit= (suma % base2)+48;
     digit2=String.fromCharCode(digit);
-    if(digit>57){digit+=8;
+    if(digit>57){digit+=7;
       digit2=String.fromCharCode(digit);
     }
     wynik=digit2+wynik;

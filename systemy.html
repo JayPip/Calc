@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Konwersja Systemów</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
     <script src="script2.js" async>//atrybut async wczytywanie asynchorniczne strony(defer dla pary skryptow, sa wczytywane po kolei)
 
       </script>
@@ -37,22 +39,52 @@
 
           <tr>
             <td><h3 style="display: block;">Input system</h3>
+              <div class="custom-select" >
               <select id="base1" >
-      <option value=2>Dwójkowy</option>
-      <option value=10>Dziesiątkowy</option>
-      <option value=16>Szesnastkowy</option>
+                <option value=2>Dwójkowy</option>
+                <option value=3>Trójkowy</option>
+                <option value=4>Czwórkowy</option>
+                <option value=5>Piątkowy</option>
+                <option value=6>Szóstkowy</option>
+                <option value=7>Siódemkowy</option>
+                <option value=8>Ósemkowy</option>
+                <option value=9>Dziewiątkowy</option>
+                <option value=10>Dziesiątkowy</option>
+                <option value=11>Jedenastkowy</option>
+                <option value=12>Dwunastkowy</option>
+                <option value=13>Trzynastkowy</option>
+                <option value=14>Czternastkowy</option>
+                <option value=15>Piętnastkowy</option>
+                <option value=16>Szesnastkowy</option>
               </select></td>
-
+              </div>
             </tr>
 
             <td><h3>Output system</h3></td>
 
             <tr>
-              <td><select id="base2" >
-      <option value=2>Dwójkowy</option>
-      <option value=10>Dziesiątkowy</option>
-      <option value=16>Szesnastkowy</option>
-              </select></td>
+              <td>
+                  <div class="custom-select" >
+                <select id="base2" >
+                    <option value=10>Dziesiątkowy</option>
+                <option value=2>Dwójkowy</option>
+                <option value=3>Trójkowy</option>
+                <option value=4>Czwórkowy</option>
+                <option value=5>Piątkowy</option>
+                <option value=6>Szóstkowy</option>
+                <option value=7>Siódemkowy</option>
+                <option value=8>Ósemkowy</option>
+                <option value=9>Dziewiątkowy</option>
+
+                <option value=11>Jedenastkowy</option>
+                <option value=12>Dwunastkowy</option>
+                <option value=13>Trzynastkowy</option>
+                <option value=14>Czternastkowy</option>
+                <option value=15>Piętnastkowy</option>
+                <option value=16>Szesnastkowy</option>
+              </select>
+            </div>
+            </td>
             </tr>
 
           </table>
@@ -65,19 +97,21 @@
         </tr>
 
         <tr>
-          <td ><input class="input4" type="text" id="liczba" placeholder="liczba..."><input type="submit" onclick="main()"></td>
+          <td ><input class="input4" type="text" id="liczba"  placeholder="liczba..."></td>
         </tr>
-
+      <tr style="height:70px;">
+        <td><input class="przycisk" type="submit" onclick="main()"></td>
+      </tr>
 
         <tr>
-          <td class="komorki2"><div class="top">Wynik:
+          <td ><div class="top">Wynik:
 
 
           </div></td>
         </tr>
 
         <tr>
-        <td class="komorki2"><p class="textwynik" id="wynik"></p></td></tr>
+        <td class="komorki2"  id="wynik"></p></td></tr>
 
       </table>
     </div>
