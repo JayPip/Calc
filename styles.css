@@ -86,8 +86,8 @@ input:focus::placeholder {
 }
 
 .choose{
-    width: 400px;
-    height: 400px;
+  height: auto;
+  width: auto;
     margin-top: 5%;
     padding: 2%;
     display: inline-table;
@@ -100,8 +100,8 @@ input:focus::placeholder {
 .drugi{
   text-align: center;
   display: inline-table;
-  width: 400px;
-  height: 400px;
+  height: auto;
+  width: auto;
   background-color: #f6e1e1;
   margin-top: 5%;
   padding: 2%;
