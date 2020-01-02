@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Konwersja Systemów</title>
+    <script src="script2.js" async>//atrybut async wczytywanie asynchorniczne strony(defer dla pary skryptow, sa wczytywane po kolei)
+
+      </script>
+    <link href="styles.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <table class="tablica">
+      <tr>
+
+        <td>||</td>
+
+        <td class="komorka">
+          <a style="text-decoration: none;" href="systemy.html">Konwersja systemów</a>
+        </td>
+
+        <td>||</td>
+
+
+        <td class="komorka">
+          <a style="text-decoration: none;" href="index.html">Kalkulator</a>
+        </td>
+          <td>||</td>
+      </tr>
+    </table>
+      <div class="choose">
+        <table >
+          <tr >
+            <td><div  class="top">Wybierz system</div></td>
+
+          </tr>
+
+          <tr>
+            <td><h3 style="display: block;">Input system</h3>
+              <select id="base1" >
+      <option value=2>Dwójkowy</option>
+      <option value=10>Dziesiątkowy</option>
+      <option value=16>Szesnastkowy</option>
+              </select></td>
+
+            </tr>
+
+            <td><h3>Output system</h3></td>
+
+            <tr>
+              <td><select id="base2" >
+      <option value=2>Dwójkowy</option>
+      <option value=10>Dziesiątkowy</option>
+      <option value=16>Szesnastkowy</option>
+              </select></td>
+            </tr>
+
+          </table>
+        </div>
+
+    <div class="drugi">
+      <table>
+        <tr>
+          <td ><div class="top">Konwertowana liczba:</div></td>
+        </tr>
+
+        <tr>
+          <td ><input class="input4" type="text" id="liczba" placeholder="liczba..."><input type="submit" onclick="main()"></td>
+        </tr>
+
+
+        <tr>
+          <td class="komorki2"><div class="top">Wynik:
+
+
+          </div></td>
+        </tr>
+
+        <tr>
+        <td class="komorki2"><p class="textwynik" id="wynik"></p></td></tr>
+
+      </table>
+    </div>
+
+
+  </body>
+</html>

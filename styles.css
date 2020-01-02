@@ -4,20 +4,28 @@ body {
 }
 
 div {
-  display: inline-block;
+
+}
+
+td{
+  text-align: center;
+
+}
+
+table{
+  margin: 0 auto;
+  vertical-align:top;
+
 }
 
 .text {
-  height: 400px;
-  width: 500px;
+  height: auto;
+  width: auto;
   background-color: #f6e1e1;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 10%;
-  padding-bottom: 10%;
-  margin-top: 10%;
-  margin-left: 10%;
-  margin-right: 10%;
+  display: inline-block;
+  text-align: center;
+  padding: 5%;
+  margin: 5%;
 }
 
 .input1 {
@@ -36,4 +44,99 @@ div {
 .top {
   font-family: 'Slabo 27px', serif;
   font-size: 40px;
+
+
+}
+
+
+.tablica{
+    background-color: #6c567b;
+    font-size: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.komorka{
+
+
+}
+
+.komorka:hover{
+  background-color: #e8d4b4;
+  color: #e8d4b4;
+
+}
+
+.choose{
+    width: 400px;
+    height: 400px;
+    margin-top: 5%;
+    padding: 2%;
+    display: inline-table;
+    background-color: #f6e1e1;
+    text-align: center;
+
+
+}
+
+.drugi{
+  text-align: center;
+  display: inline-table;
+  width: 400px;
+  height: 400px;
+  background-color: #f6e1e1;
+  margin-top: 5%;
+  padding: 2%;
+}
+
+
+
+
+
+.system1{
+
+  text-align: center;
+
+
+}
+
+
+.input4{
+  width: 70%;
+  padding: 2%;
+  border: none;
+  border-bottom:2px solid red;
+  background-color: #f6e1e1;
+  outline: none;
+  font-size: 30px;
+
+}
+
+
+.komorki2{
+  padding: 20px;
+  text-align: center;
+
+}
+
+
+.wynik123{
+  max-width: 100%;
+  max-height: 20%;
+  min-height: 20%;
+  border-bottom:2px solid red;
+  text-align: center;
+  font-size: 30px;
+}
+
+.textwynik{
+  max-width: 10%;
+  max-height: 10%;
+
+  border-bottom:2px solid red;
+  font-size: 30px;
+
+
+
 }
